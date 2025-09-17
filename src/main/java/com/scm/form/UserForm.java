@@ -9,6 +9,7 @@ import lombok.*;
 @Builder
 public class UserForm {
     private String name;
-    private String userName;
+    private String email;
+    private String terms;
     private String password;
 }
